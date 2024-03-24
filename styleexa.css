@@ -110,10 +110,12 @@ body {
 }
 
 .imagen {
-    top: 89px;
-    margin: 310px 1px; /* Corregido: se agregaron unidades de medida */
+    max-width: 100%;
+    height: auto; 
+    margin: 0 auto;
     border-radius: 20px;
 }
+
 
 .btnLogIn:hover {
     background-color: #7c08cf;
@@ -127,7 +129,7 @@ body {
     background-color: rgba(77, 226, 97, 0.7);
     padding: 10px 20px;
     border: none;
-    border-radius: 10px; /* Corregido: se cambió el porcentaje a un valor absoluto */
+    border-radius: 10px; 
     text-decoration: double;
     top: 30px;
     height: 35px;

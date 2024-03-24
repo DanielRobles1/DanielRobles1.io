@@ -9,6 +9,20 @@
     font-style: normal;
   }
 
+@media (max-width: 768px) {
+
+    .container {
+        width: 100%; /* ancho de la pantalla */
+        padding: 10px; /* Ajusta el relleno para pantallas más pequeñas */
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container {
+        width: 80%; /* Reducir el ancho del contenedor para pantallas más grandes */
+    }
+}
 .principal{
  
     height: 100vh;

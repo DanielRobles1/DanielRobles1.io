@@ -1,193 +1,146 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
-  body{
+
+body {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 500;
     font-style: normal;
-  }
+}
 
 @media (max-width: 768px) {
-  
     .container {
-        width: 100%; 
-        padding: 10px; 
-    }
-
-@media (min-width: 1200px) {
-
-    .container {
-        width: 80%; /* Reducir el ancho del contenedor para pantallas más grandes */
+        width: 100%;
+        padding: 10px;
     }
 }
-.principal{
- 
+
+@media (min-width: 1200px) {
+    .container {
+        width: 80%;
+    }
+}
+
+.principal {
     height: 100vh;
     width: 100%;
     padding: 40px 140px;
     position: relative;
     background: linear-gradient(to right, #CCD1CE, #ffffff);
 }
-.segundo{
+
+.segundo {
     background-color: #FFF;
     width: 90%;
     height: 100%;
     display: flex;
-    box-shadow: 25px 25px 30px rgba(0, 0, 0, 0.5); 
+    box-shadow: 25px 25px 30px rgba(0, 0, 0, 0.5);
     justify-content: center;
-    border-radius: 20px; 
+    border-radius: 20px;
 }
 
-.izquierdo{
-  border-radius: 20px; 
+.izquierdo {
+    border-radius: 20px;
     width: 40%;
     height: 100%;
     background-color: rgb(192, 189, 189);
     justify-content: left;
 }
-.derecho{
-  border-radius: 30px; 
+
+.derecho {
+    border-radius: 30px;
     width: 70%;
     height: 100%;
     background-color: #FFF;
     position: relative;
 }
-  .texto-lobster {
+
+.texto-lobster {
     position: absolute;
-      top: 630px; /* Ajusta la posición vertical */
-      right: calc(100% + -250px); /* Ajusta la posición horizontal */
-      font-size: 12px; /* Tamaño del texto */
-      font-weight: bold; /* Estilo del texto */
-      color: #7b1c77; /* Color del texto */ }
-      .texto-lobster2 {
-       position: absolute;
-        text-align: center;
-          top: 130px; /* Ajusta la posición vertical */
-          right: calc(95% + -380px); /* Ajusta la posición horizontal */
-          font-size: 26px; /* Tamaño del texto */
-          font-weight: bold; /* Estilo del texto */
-          color: #7b1c77; /* Color del texto */ }
-          .texto-lobster3 {
-            position: absolute;
-        text-align: center;
-          top: 199px; /* Ajusta la posición vertical */
-          right: calc(95% + -380px); /* Ajusta la posición horizontal */
-          font-size: 26px; /* Tamaño del texto */
-          font-weight: bold; /* Estilo del texto */
-              color: #0a0a0a; /* Color del texto */ }
-              .texto-lobster4 {
-                position: absolute;
-                  top: 90px; /* Ajusta la posición vertical */
-                  right: calc(108% + -380px); /* Ajusta la posición horizontal */
-                  font-size: 24px; /* Tamaño del texto */
-                  font-weight: bold; /* Estilo del texto */
-                  color: #000000; /* Color del texto */ }
-              /* Estilos para el campo de correo electrónico */
-              .form-container {
-                width: 300px;
-                background-color: #e3f193;
-                padding: 50px;
-                border-radius: 17px;
-                box-shadow: 55 20px 50px rgba(0,0,0,0.1);
-                margin: 90px;
-             
-            }
-          .divLog{
-            position: relative;
-            top: 130px;
-          }
-          .imagen{
-            top: 89px;
-margin: 310 1px;
-border-radius: 20px;
-          }
-          .btnLogIn:hover{
-            background-color: #7c08cf;
-            color: rgb(124, 186, 240);
-        }
-          .btnLogIn {
-                display: block;
-                text-align: auto;
-                color: white;
-                background-color: rgba(77, 226, 97, 0.7);
-                padding: 10px 20px;
-                border: none;
-                border-radius: 35%;
-                text-decoration:double;
-                top: 30px;
-                height: 35px;   
-                cursor: pointer;
-  
-                /* Espacio desde abajo */
-                /*right: 400px; /* Espacio desde la derecha */
-                width: 120px;
-                left:180px ;
-                font-family:Verdana, Geneva, Tahoma, sans-serif;}
-                /*left: calc(30% - -150px); /* Centra horizontalmente el botón */
-               
-              .containerBoton{
-                font-family:"Nanum Brush Script";
-                position: absolute;
-                box-sizing: border-box;
-                top: 5%;
-                right: 5%;
-            }
-            
-            .boton:hover{
-                background-color: #7c08cf;
-                color: rgb(124, 186, 240);
-            }
-            .boton {
-                background-color: #713086;
-                color: #f4cbcb;
-                font-family:"Nanum Brush Script";
-                border-bottom: #050505;
-                font-size: 16px;
-                font-weight: 700;
-                outline: none;
-                overflow: hidden;
-                cursor: pointer;
-            }
-            /* Estilos para el botón de envío */
-            .submit-btn {
-                width: 40px; /* Ancho fijo */
-                padding: 30px;
-                background-color: #2a7dd6;
-                color: #d6d5d5;
-                border: none;
+    top: 630px;
+    right: calc(100% + -250px);
+    font-size: 12px;
+    font-weight: bold;
+    color: #7b1c77;
+}
+
+.texto-lobster2 {
+    position: absolute;
+    text-align: center;
+    top: 130px;
+    right: calc(95% + -380px);
+    font-size: 26px;
+    font-weight: bold;
+    color: #7b1c77;
+}
+
+.texto-lobster3 {
+    position: absolute;
+    text-align: center;
+    top: 199px;
+    right: calc(95% + -380px);
+    font-size: 26px;
+    font-weight: bold;
+    color: #0a0a0a;
+}
+
+.texto-lobster4 {
+    position: absolute;
+    top: 90px;
+    right: calc(108% + -380px);
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.form-container {
+    width: 300px;
+    background-color: #e3f193;
+    padding: 50px;
+    border-radius: 17px;
+    box-shadow: 55 20px 50px rgba(0, 0, 0, 0.1);
+    margin: 90px;
+}
+
+.divLog {
+    position: relative;
+    top: 130px;
+}
+
+.imagen {
+    top: 89px;
+    margin: 310px 1px; /* Corregido: se agregaron unidades de medida */
+    border-radius: 20px;
+}
+
+.btnLogIn:hover {
+    background-color: #7c08cf;
+    color: rgb(124, 186, 240);
+}
+
+.btnLogIn {
+    display: block;
+    text-align: auto;
+    color: white;
+    background-color: rgba(77, 226, 97, 0.7);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px; /* Corregido: se cambió el porcentaje a un valor absoluto */
+    text-decoration: double;
+    top: 30px;
+    height: 35px;
+    cursor: pointer;
+    width: 120px;
+    left: 180px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.containerBoton {
+    font-family: "Nanum Brush Script";
+    position: absolute;
+    box-sizing: border-box;
+    top: 
+
                 
-                cursor: pointer;
-                font-family:fantasy;
-                transition: background-color 0.3s ease;
-                float: right; /* Hacer que el botón flote a la derecha */
-                
-            }
-            .submit-btn:hover {
-                background-color: #67a7ec;
-                font-family:fantasy;
-            }
-            .email{
-                
-              background-color: #f0f0f0;
-              border: none;
-            }
-            .pass{
-                  
-              background-color: #f0f0f0;
-              border: none;
-                text-decoration: none;
-                
-            }
-            
-            .forg{
-                font-size: 12px;
-               
-                position: relative;
-                top:50px;
-                left: -10px;
-            }    
-    
-  
-              

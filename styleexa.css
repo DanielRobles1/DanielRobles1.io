@@ -10,12 +10,11 @@
   }
 
 @media (max-width: 768px) {
-
+  
     .container {
-        width: 100%; /* ancho de la pantalla */
-        padding: 10px; /* Ajusta el relleno para pantallas más pequeñas */
+        width: 100%; 
+        padding: 10px; 
     }
-}
 
 @media (min-width: 1200px) {
 
